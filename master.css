@@ -1,0 +1,36 @@
+header {
+  width: 60%;
+  margin: auto;
+  --img-height: 10rem;
+  --img-vmargin: 2rem;
+  height: calc(var(--img-height) + 2 * var(--img-vmargin));
+}
+header img {
+  height: var(--img-height);
+  margin: 1rem var(--img-vmargin) 1rem var(--img-vmargin);
+  float: left;
+}
+header h1 {
+  font-size: 3rem;
+}
+
+/* Content area */
+
+.content {
+  width: 50%;
+  margin: auto;
+  background-image: url("img/horagai-pa.png");
+  background-size: 20rem;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  /*background-color: #cccccc;*/
+}
+
+.content h2 {
+
+}
+
+.content h2 .eng {
+  margin-left: 1rem;
+  color: #cccccc;
+}
